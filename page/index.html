@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Color-picker | Design</title>
+
+    <!-- Appel du CSS -->
+    <link rel="stylesheet" href="../css/style.css" />
+
+    <!-- Logo Favicon -->
+    <link rel="icon" href="../medias/favicon_colors.jpg" />
+  </head>
+  <body>
+    <main v-cloak>
+      <div class="tools">
+        <h1><em>Color-picker</em></h1>
+        <div>
+          <input type="color" v-model="color1" />
+          <input type="text" v-model="color1" />
+        </div>
+        <div>
+          <div class="vertical-range"><input type="range" :min="min" :max="max" v-model="steps" /></div>
+          <div class="steps">{{visualSteps}} {{visualStepsLabel}}</div>
+        </div>
+        <div>
+          <input type="color" v-model="color2" />
+          <input type="text" v-model="color2" />
+        </div>
+        <div>
+          <img class="logo" src="../medias/LOGO OFFICIEL TRISTAN (Transparent).png" alt="logo">
+        </div>
+      </div>
+      <div class="colors">
+        <div class="color" v-for="color in colors" :style="setStyles(color)">&nbsp;{{colorName(color)}}</div>
+      </div>
+    </main>
+  </body>
+
+  <!-- Appel de VueJs -->
+  <script src="https://unpkg.com/vue@2"></script>
+  <script src="https://codepen.io/jasesmith/pen/qMmLNO/bb578a401c45e3f38f096eb64646e76b.js"></script>
+  <script src="../js/service.js"></script>
+</html>
