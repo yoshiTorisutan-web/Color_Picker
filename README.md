@@ -25,7 +25,7 @@ Color Picker est une application simple qui vous permet de sélectionner et d'ex
 - Assurez-vous que vous avez installé Node.js sur votre système.
 - Ouvrez une fenêtre de terminal et naviguez jusqu'au répertoire du projet.
 - Exécutez la commande suivante pour installer les dépendances : ```npm install```
-Une fois l'installation terminée, exécutez la commande suivante pour démarrer l'application : ```npm start```
+- Une fois l'installation terminée, exécutez la commande suivante pour démarrer l'application : ```npm start```
 
 L'application sera exécutée localement sur votre navigateur à l'adresse http://localhost:3000.
 
