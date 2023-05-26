@@ -34,10 +34,10 @@ L'application sera exécutée localement sur votre navigateur à l'adresse http:
 Les contributions sont les bienvenues ! Si vous souhaitez contribuer à l'application Color Picker, veuillez suivre les étapes suivantes :
 
 - Fork ce référentiel.
-- Créez une branche pour vos fonctionnalités ou corrections de bogues : git checkout -b feature/ma-nouvelle-fonctionnalite ou git checkout -b bugfix/ma-correction-de-bogue.
+- Créez une branche pour vos fonctionnalités ou corrections de bogues : ```git checkout -b feature/ma-nouvelle-fonctionnalite ou git checkout -b bugfix/ma-correction-de-bogue```
 - Effectuez vos modifications et ajoutez des tests si nécessaire.
-- Validez vos modifications : git commit -m 'Ajouter une nouvelle fonctionnalité'.
-- Poussez vers la branche correspondante sur votre fork : git push origin feature/ma-nouvelle-fonctionnalite.
+- Validez vos modifications : ```git commit -m 'Ajouter une nouvelle fonctionnalité'```
+- Poussez vers la branche correspondante sur votre fork : ```git push origin feature/ma-nouvelle-fonctionnalite.```
 - Ouvrez une demande d'extraction (pull request) pour demander l'ajout de vos modifications.
 
 
